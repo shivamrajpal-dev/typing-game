@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(as.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: rgba(72, 72, 79, 0.72);
+}
+nav .navConatiner {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  width: 90%;
+  align-items: center;
+}
+nav .navConatiner .headings {
+  font-family: "Pangolin", cursive;
+  color: #e2e2ec;
+  font-size: 2.2em;
+}
+nav .navConatiner .tittle {
+  font-family: "Pangolin", cursive;
+  color: #ff626b;
+  font-size: 2.5em;
+}
+nav .navConatiner .tittle span {
+  color: #62c6ff;
+}
+.word {
+  width: 70%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh auto 0;
+  background-color: rgba(72, 72, 79, 0.72);
+  border-radius: 25px;
+}
+.word p {
+  color: #ff626b;
+  font-family: "pangolin", cursive;
+  font-size: 2em;
+}
+.word p span {
+  color: #62c6ff;
+}
+.word h1 {
+  font-size: 6em;
+  line-height: 2em;
+  color: #e2e2ec;
+}
+.inpt {
+  margin: 2em auto;
+  width: 30%;
+}
+.inpt input {
+  width: 100%;
+  height: 7vh;
+  border: none;
+  border-radius: 6px;
+  color: #6f6e73;
+  background: rgba(240, 239, 239, 0.85);
+  font-size: 1.5em;
+}
+.game-over {
+  width: 40%;
+  margin: auto;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(72, 72, 79, 0.72);
+  height: 15vh;
+  font-size: 2.3em;
+  font-family: "Pangolin", cursive;
+  border-radius: 15px;
+}
